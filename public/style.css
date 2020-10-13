@@ -5,303 +5,352 @@
 
 body {
   font-family: libreFranklin;
-  color: #333;
 }
 
-h2 {
-  padding-left: 0;
+#top-bar {
   width: 100%;
-  word-spacing: .125rem;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
+}
+
+#middle-bar {
+  width: 100%;
+  position: absolute;
+  left: 7px;
+  top: 810px;
+}
+
+#row1 {
+  margin-left: 22%;
+}
+
+#carousel-placeholder {
+  width: 50%;
+  display: inline-block;
+}
+
+#scheduler-wrapper {
+  width: 40%;
+  display: inline-block;
+  position: absolute;
+  top: 220px;
+  right: -40px;
+}
+
+#scheduler-wrapper #Scheduler {
+  display: inline-block;
 }
 
 #schools {
-  width: 65%;
-}
-
-.font-size-base {
-  font-size: 1rem;
-}
-
-.font-size-small {
-  font-size: .875rem;
-}
-
-.font-size-smaller {
-  font-size: .75rem;
-}
-
-.schools-table-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-top: none;
-  border-bottom: none;
-}
-
-.schools-table-row td {
-  padding: 12px 0 12px 0;
-}
-
-.rating-and-name-col {
-  display: inherit;
-  max-width: 350px;
-}
-
-.rating-col {
-  padding-right: 1rem;
-}
-
-.ellipse {
-  background-color: #f5f5f5;
-  border-radius: 50%;
-  width: 56px;
-  height: 56px;
-  font-size: 18px;
-  text-align: center;
-  line-height: 56px;
-}
-
-.rating-num {
-  font-weight: 600;
-  font-size: 18px;
-}
-
-.rating-num-modal {
-  font-weight: 600;
-  font-size: 18px;
-  margin-left: 11px;
-}
-
-.out-of {
-  font-size: .75rem;
-}
-
-.name-col {
-  min-width: 275px;
-  width: 40%;
-  text-align: left;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.name-and-info {
-  vertical-align: middle;
-  line-height: 1.4rem;
-  font-size: .75rem;
-}
-
-.school-name {
-  white-space: nowrap;
-  line-height: 24px;
-}
-
-.school-name-modal {
-  white-space: nowrap;
-  line-height: 24px;
-  margin-left: 40px;
-}
-
-.school-title {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  color: #1080a2;
-  cursor: pointer;
-}
-
-.sub-info {
-  display: block;
-  padding-top: 4px;
-  line-height: 18px;
-  color: #767676;
-}
-
-.num-students-col {
-  min-width: 75px;
-}
-
-.students {
-  line-height: 24px;
-}
-
-.star-rating {
-  line-height: 24px;
-}
-
-.star-rating img {
-  width: 10em;
-}
-
-.num-reviews {
-  color: #1080a2;
-  cursor: pointer;
-  outline: none;
-}
-
-.distance-col {
-  min-width: 75px;
-}
-
-.value {
-  line-height: 24px;
-}
-
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width:100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.2);
-}
-
-.modal-main {
-  position:fixed;
-  background: white;
-  width: 560px;
-  height: auto;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  display: block !important;
-}
-
-.display-block {
-  display: block;
-}
-
-.display-none {
-  display: none;
-}
-
-.closeModal {
-  float: right;
-  width: 20px;
-  padding-right: 21px;
-  padding-top: 20px;
-}
-
-.modal-wrapper {
-  width: 100%;
+  width: 38%;
   display: inline-block;
-  position: relative;
-  max-width: 100%;
-  text-align: left;
-  padding: 0 24px 24px 24px;
-  overflow-y: initial !important;
+  position: absolute;
+  top: 1630px;
+  left: 429px;
+  z-index: 1;
 }
 
-.content {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
-  font-size: 1rem;
-  font-weight: 400;
-  height: 35em;
-  overflow-y: auto;
+#similar-homes-app {
+  width: 43%;
+  display: inline-block;
+  position: absolute;
+  top: 1630px;
+  left: 1200px;
+  z-index: -1;
 }
 
-.school-info-content {
-  padding-bottom: 24px;
+#footer {
+  width: 100%;
+  position: absolute;
+  left: 7px;
+  top: 2240px;
 }
 
-.school-rating-and-title {
-  position: relative;
+
+/* Start similar-homes-css */
+/* Start similar-homes-css */
+/* Start similar-homes-css */
+/* Start similar-homes-css */
+/* Start similar-homes-css */
+/* Start similar-homes-css */
+
+.nssh-main {
+  font-weight: lighter;
+}
+.nssh-h1 {
+  font-size: 125%;
+}
+.nssh-text {
+  padding-left: 15px;
+}
+.nssh-ammenities {
+  display: inline;
+  padding-right: 10px;
+}
+.nssh-realty div {
+  display: inline;
+  padding-right: 3px;
+  color: rgb(170, 170, 170);
+  font-size: 70%;
+}
+.nssh-realty {
+  padding-bottom: 10px;
+}
+.nssh-tags {
+  padding-bottom: 35px;
   display: flex;
-  align-items: center;
 }
-
-.school-address {
-  padding-top: 16px;
-  padding-bottom: 4px;
-  line-height: 24px;
+.nssh-tags div {
+  display: inline;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 20px;
+  font-size: 85%;
 }
-
-.ratio {
-  padding-bottom: 4px;
-  line-height: 24px;
+.nssh-price {
+  font-weight: bold;
+  font-size: 125%;
+  padding-top: 10px;
+  padding-bottom: 7px;
 }
-
-.star-rating-modal {
-  line-height: 20px;
-  display: flex;
-  align-items: center;
+.nssh-address {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 85%
+}
+.nssh-img {
+  height: 260px;
+  width: 390px;
+}
+.nssh-home {
+  box-shadow: 0 0 10px rgb(226, 226, 226);
+  margin-right: 647px;
+  width: 390px;
+}
+.nssh-home:hover {
+  box-shadow: 0 0 10px rgb(139, 134, 134);
+}
+.nssh-container {
+  position: relative;
+  text-align: center;
+  width: 390px;
+}
+.nssh-container .nssh-notes {
+  position: absolute;
+  top: 8px;
+  left: 5px;
+}
+.nssh-container .nssh-notes div {
+  background-color: #7556f2;
+  color: white;
+  border-radius: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
   padding-top: 4px;
-}
-
-.star-rating-modal img {
-  width: 100px;
-}
-
-.review img {
-  width: 100px;
-}
-
-.num-reviews-modal {
-  margin-left: 10px;
-  margin-top: 4px;
-}
-
-.school-address div a {
-  text-decoration: none;
-  color: #1080a2;
-}
-
-.great-schools-section .section-title {
-  font-weight: 600;
-  font-size: 1.125rem;
-  padding: 28px 0 16px 0;
-}
-
-.subrating-row {
-  padding-bottom: .25rem;
-  margin-top: 20px;
-}
-
-.subrating-row .subrating-score {
-  float: left;
-  padding-right: 1rem;
-  width: 40px;
-}
-
-.subrating-row .subrating-score .subrating-value {
-  font-weight: 600;
-  font-size: 1.125rem;
-  color: #333;
-}
-
-.subrating-row .subrating-type {
-  font-size: 1rem;
-  color: #767676;
-  float: left;
-}
-
-.great-schools-section .last-updated {
-  font-size: 12px;
-  color: #767676;
   padding-bottom: 4px;
-  padding-top: 12px;
-  margin-top: 20px;
+  margin-right: 6px;
+  font-size: 75%;
+  display: inline;
+}
+.nssh-container .nssh-notes .nssh-new {
+  background-color: green;
 }
 
-.review .last-updated {
-  font-size: 12px;
-  color: #767676;
-  padding-bottom: 4px;
-  padding-top: 12px;
-  margin-bottom: 30px;
+.nssh-container .nssh-arrow {
+  top: 200px;
+  border: 1px solid black;
+  border-radius: 100px;
+  background-color: white;
 }
 
-.review-body {
-  padding-top: 16px;
-  padding-bottom: 4px;
-  line-height: 24px;
-  width: 500px;
+.nssh-container .nssh-left-arrow {
+  position: absolute;
+  left: -10px;
+  font-size: 150%;
 }
 
-.new-review {
-  color: #1080a2;
+.nssh-container .nssh-right-arrow {
+  position: absolute;
+  left: 385px;
+  font-size: 150%;
+}
+
+/* End similar-homes-css */
+/* End similar-homes-css */
+/* End similar-homes-css */
+/* End similar-homes-css */
+/* End similar-homes-css */
+/* End similar-homes-css */
+
+
+
+/* Start carousel css */
+/* Start carousel css */
+/* Start carousel css */
+/* Start carousel css */
+/* Start carousel css */
+
+.image-carousel {
+  margin-top: 10px;
+  width: 728px;
+  max-width: 728px;
+}
+
+#imageUrl {
+  width: 728px;
+  height: 100%;
+}
+
+.PhotoArea {
+  position: relative;
+  height: 441px;
+  width: 100%;
+  background: #333;
+}
+
+.PhotoArea .nav {
+  height: 100%;
+  width: 180px;
+  position: absolute;
   cursor: pointer;
+  z-index: 2;
+  top: 0;
 }
+
+.PhotoArea .nav .navButton {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: calc(50% - 18px);
+  overflow: hidden;
+  border-radius: 100%;
+  opacity: .6;
+  background-color: rgba(0,0,0,.66);
+  border: 1px solid hsla(0,0%,100%,.66);
+  transition: opacity .25s linear;
+}
+
+.PhotoArea:hover .nav .navButton {
+  opacity: .8;
+  border: 1px solid hsla(0,0%,100%,.75);
+  background-color: rgba(0,0,0,.625);
+}
+
+.PhotoArea .nav.next {
+  right: 0;
+  user-select: none;
+}
+
+.PhotoArea .nav.prev .navButton {
+  transform: scaleX(-1);
+  left: 20px;
+}
+
+.PhotoArea .nav.next .navButton {
+  right: 20px;
+}
+
+.PhotoArea .nav .navButton:hover {
+  opacity: 1;
+  box-shadow: 0 0 8px hsla(0,0%,100%,.15);
+}
+
+#photoTracker {
+  color: #fff;
+  font-weight: 600;
+  font-size: .75rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  display: inline-flex;
+  cursor: default;
+  border-radius: 3rem;
+  transition: opacity .25s linear;
+  transition-property: opacity;
+  transition-duration: 0.25s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  opacity: 0;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 5;
+  background-color: rgba(0,0,0,.7);
+}
+
+.PhotoArea:hover #photoTracker {
+  opacity: 1;
+}
+
+.image-full {
+  height: 441px;
+}
+
+.bottom-banner {
+  width: 728px;
+  padding-top: .5rem;
+}
+
+.card {
+  width: calc((100% - 1rem)/3);
+  margin-right: .5rem;
+  cursor: pointer;
+  height: 91px;
+  display: inline-block;
+}
+
+.card:last-of-type {
+  margin-right: 0;
+}
+
+.cardv2 {
+  height: 100%;
+  width: 100%;
+  border: none;
+  object-fit: cover;
+  border-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  margin: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.card-image {
+  height: 100%;
+  width: 100%;
+  border: none;
+  object-fit: cover;
+}
+
+.center {
+  margin: 0 5px 5px;
+  text-align: center;
+  min-width: 0;
+  flex: 1 1 50%;
+}
+
+.bottom-word {
+  margin: 0 5px 5px;
+  text-align: center;
+  min-width: 0;
+  flex: 1 1 50%;
+  font-size: .875rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+
+/* End carousel css */
+/* End carousel css */
+/* End carousel css */
+/* End carousel css */
+/* End carousel css */
+/* End carousel css */
